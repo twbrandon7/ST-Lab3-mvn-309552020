@@ -1,12 +1,37 @@
 package tw.edu.nctu.cs.lxchen.st.lab3_mvn;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.PriorityQueue;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 class TestPriorityQueue {
-    @Test
-    public void someFunc() {
-        System.out.println("Hello");
+    @ParameterizedTest
+    @MethodSource("getParameters")
+    public void ParameterizedTest(int[] input, int[] expected) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        for (int n : input) {
+            queue.offer(n);
+        }
+
+        for (int n : expected) {
+            assertEquals(n, queue.poll());
+        }
+    }
+
+    private static Stream<Arguments> getParameters() {
+        return Stream.of(
+                Arguments.of(new int[] {5, 4, 3, 2, 1}, new int[] {1 ,2, 3, 4, 5}),
+                Arguments.of(new int[] {1, 2, 7, 3, 5}, new int[] {1, 2, 3, 5, 7}),
+                Arguments.of(new int[] {9, 1, 8, 3, 2}, new int[] {1, 2, 3, 8, 9}),
+                Arguments.of(new int[] {5, 5, 2, 0, 2}, new int[] {0, 2, 2, 5, 5}),
+                Arguments.of(new int[] {3, 0, 9, 5, 5}, new int[] {0, 3, 5, 5, 9})
+        );
     }
 }
