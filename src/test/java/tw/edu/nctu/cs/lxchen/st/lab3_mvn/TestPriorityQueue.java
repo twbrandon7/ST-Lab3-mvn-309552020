@@ -31,7 +31,7 @@ class TestPriorityQueue {
                 Arguments.of(new int[] {1, 2, 7, 3, 5}, new int[] {1, 2, 3, 5, 7}),
                 Arguments.of(new int[] {9, 1, 8, 3, 2}, new int[] {1, 2, 3, 8, 9}),
                 Arguments.of(new int[] {5, 5, 2, 0, 2}, new int[] {0, 2, 2, 5, 5}),
-                Arguments.of(new int[] {3, 0, 9, 5, 5}, new int[] {0, 3, 5, 9, 5})
+                Arguments.of(new int[] {3, 0, 9, 5, 5}, new int[] {0, 3, 5, 5, 9})
         );
     }
 
