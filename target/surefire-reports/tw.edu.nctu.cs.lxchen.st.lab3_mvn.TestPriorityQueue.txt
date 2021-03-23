@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.075 s <<< FAILURE! - in tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue
+parameterizedTest{int[], int[]}[5]  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <9> but was: <5>
+	at tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue.parameterizedTest(TestPriorityQueue.java:24)
+

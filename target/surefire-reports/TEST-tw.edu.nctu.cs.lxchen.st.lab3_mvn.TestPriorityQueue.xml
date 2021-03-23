@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.06" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.075" tests="8" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="MS950"/>
-    <property name="java.class.path" value="C:\Users\lxchen\OneDrive - National Chiao Tung University\文件\school_projects\software_testing\lab3\target\test-classes;C:\Users\lxchen\OneDrive - National Chiao Tung University\文件\school_projects\software_testing\lab3\target\classes;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\lxchen\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\lxchen\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-core\3.6.0\mockito-core-3.6.0.jar;C:\Users\lxchen\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\lxchen\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\lxchen\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-junit-jupiter\3.6.0\mockito-junit-jupiter-3.6.0.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-inline\3.6.0\mockito-inline-3.6.0.jar;"/>
+    <property name="java.class.path" value="C:\school_projects_coding\software_testing\lab3\target\test-classes;C:\school_projects_coding\software_testing\lab3\target\classes;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\lxchen\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\lxchen\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-core\3.6.0\mockito-core-3.6.0.jar;C:\Users\lxchen\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\lxchen\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\lxchen\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-junit-jupiter\3.6.0\mockito-junit-jupiter-3.6.0.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-inline\3.6.0\mockito-inline-3.6.0.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TW"/>
     <property name="sun.boot.library.path" value="C:\Users\lxchen\.jdks\corretto-11.0.10\bin"/>
-    <property name="sun.java.command" value="C:\Users\lxchen\AppData\Local\Temp\surefire10246099727038241973\surefirebooter17993231813155373244.jar C:\Users\lxchen\AppData\Local\Temp\surefire10246099727038241973 2021-03-23T14-35-05_320-jvmRun1 surefire8130555471403394040tmp surefire_015212088329135565407tmp"/>
+    <property name="sun.java.command" value="C:\Users\lxchen\AppData\Local\Temp\surefire17939854864196659013\surefirebooter11250902011189968492.jar C:\Users\lxchen\AppData\Local\Temp\surefire17939854864196659013 2021-03-23T15-02-48_255-jvmRun1 surefire10163310608342965319tmp surefire_09211286752368167428tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\lxchen\OneDrive - National Chiao Tung University\文件\school_projects\software_testing\lab3\target\test-classes;C:\Users\lxchen\OneDrive - National Chiao Tung University\文件\school_projects\software_testing\lab3\target\classes;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\lxchen\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\lxchen\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-core\3.6.0\mockito-core-3.6.0.jar;C:\Users\lxchen\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\lxchen\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\lxchen\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-junit-jupiter\3.6.0\mockito-junit-jupiter-3.6.0.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-inline\3.6.0\mockito-inline-3.6.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\school_projects_coding\software_testing\lab3\target\test-classes;C:\school_projects_coding\software_testing\lab3\target\classes;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\lxchen\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\lxchen\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\lxchen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-core\3.6.0\mockito-core-3.6.0.jar;C:\Users\lxchen\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\lxchen\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\lxchen\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-junit-jupiter\3.6.0\mockito-junit-jupiter-3.6.0.jar;C:\Users\lxchen\.m2\repository\org\mockito\mockito-inline\3.6.0\mockito-inline-3.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\lxchen"/>
     <property name="user.language" value="zh"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.home" value="C:\Users\lxchen\.jdks\corretto-11.0.10"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\lxchen\OneDrive - National Chiao Tung University\文件\school_projects\software_testing\lab3"/>
+    <property name="basedir" value="C:\school_projects_coding\software_testing\lab3"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\lxchen\AppData\Local\Temp\surefire10246099727038241973\surefirebooter17993231813155373244.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lxchen\AppData\Local\Temp\surefire17939854864196659013\surefirebooter11250902011189968492.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+9-LTS"/>
@@ -48,7 +48,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
     <property name="java.io.tmpdir" value="C:\Users\lxchen\AppData\Local\Temp\"/>
     <property name="java.version" value="11.0.10"/>
-    <property name="user.dir" value="C:\Users\lxchen\OneDrive - National Chiao Tung University\文件\school_projects\software_testing\lab3"/>
+    <property name="user.dir" value="C:\school_projects_coding\software_testing\lab3"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,9 +60,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="ParameterizedTest{int[], int[]}[1]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.025"/>
-  <testcase name="ParameterizedTest{int[], int[]}[2]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.001"/>
-  <testcase name="ParameterizedTest{int[], int[]}[3]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0"/>
-  <testcase name="ParameterizedTest{int[], int[]}[4]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.001"/>
-  <testcase name="ParameterizedTest{int[], int[]}[5]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0"/>
+  <testcase name="nullPointerExceptionTest" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.006"/>
+  <testcase name="illegalArgumentExceptionTest" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0"/>
+  <testcase name="parameterizedTest{int[], int[]}[1]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.018"/>
+  <testcase name="parameterizedTest{int[], int[]}[2]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.001"/>
+  <testcase name="parameterizedTest{int[], int[]}[3]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0"/>
+  <testcase name="parameterizedTest{int[], int[]}[4]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0"/>
+  <testcase name="parameterizedTest{int[], int[]}[5]" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0.011">
+    <failure message="expected: &lt;9&gt; but was: &lt;5&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <9> but was: <5>
+	at tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue.parameterizedTest(TestPriorityQueue.java:24)
+]]></failure>
+  </testcase>
+  <testcase name="classCastExceptionTest" classname="tw.edu.nctu.cs.lxchen.st.lab3_mvn.TestPriorityQueue" time="0"/>
 </testsuite>
