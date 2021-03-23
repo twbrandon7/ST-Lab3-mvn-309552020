@@ -6,9 +6,9 @@
 ### A. Test pass
 
 ![pass](./images/success.png)
-![pass](./images/success-mvn.png)
+![pass-mvn](./images/success-mvn.png)
 
 ### B. Test fail
 
-![pass](./images/error.png)
-![pass](./images/error-mvn.png)
+![error](./images/error.png)
+![error-mvn](./images/error-mvn.png)
