@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class TestPriorityQueue {
     @ParameterizedTest
     @MethodSource("getParameters")
-    public void ParameterizedTest(int[] input, int[] expected) {
+    public void parameterizedTest(int[] input, int[] expected) {
         PriorityQueue<Integer> queue = new PriorityQueue<>();
         for (int n : input) {
             queue.offer(n);
@@ -33,5 +33,29 @@ class TestPriorityQueue {
                 Arguments.of(new int[] {5, 5, 2, 0, 2}, new int[] {0, 2, 2, 5, 5}),
                 Arguments.of(new int[] {3, 0, 9, 5, 5}, new int[] {0, 3, 5, 5, 9})
         );
+    }
+
+    @Test
+    public void classCastExceptionTest() {
+        PriorityQueue queue = new PriorityQueue();
+        queue.offer(3);
+        assertThrows(ClassCastException.class, ()->{
+            queue.add("String");
+        });
+    }
+
+    @Test
+    public void nullPointerExceptionTest() {
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        assertThrows(NullPointerException.class, ()->{
+            queue.add(null);
+        });
+    }
+
+    @Test
+    public void illegalArgumentExceptionTest() {
+        assertThrows(IllegalArgumentException.class, ()->{
+            new PriorityQueue<>(0);
+        });
     }
 }
